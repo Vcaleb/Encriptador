@@ -1,0 +1,121 @@
+body{
+    background-image:url(images/letras.jpg);
+}
+.div{
+    height: 5em;
+    width: 100%;
+    background-color: rgb(182, 170, 152);
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: 724px;
+    padding-top: 30px;
+}
+
+.titulo {
+
+    font-size: 35px;
+    display:inline-block;
+    color: rgb(117, 117, 117);
+    margin-top: 0.5em;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+
+}
+
+.cuadro_encriptador{
+    border-color: black ;
+    border-radius: 20px;
+    margin: 30PX 13.5%;
+    width: 68%;
+    height: auto;
+    text-align: center;
+    font-style: italic;
+    padding: 2%;
+    background-color: #b4aca1;
+    overflow: auto;
+    display:block;
+}
+.boton{
+    display: inline;
+    margin-left: 10%;
+    background: #0A3871;
+    border-radius: 20px;
+    width: 20%;
+    height: 4em;
+    color: aliceblue;
+}
+
+#encriptar {
+    margin-left: 25%;
+}
+
+.cuadro_desencriptador{
+    position: absolute;
+    top:32em;
+    left: 13.5%;
+    min-height: 15em;
+    height: auto;
+    width: 68%;
+    padding: 2%;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    text-align: center;
+    overflow: auto;
+    display:block;
+    word-wrap: break-word
+}
+
+#pergamino {
+    width: 10%;
+    position: absolute;
+    top: 31em;
+    left: 45%;
+}
+
+#copiar{
+    margin: auto;
+    position: absolute;
+    top: 52em;
+    left: 42.5%;
+
+}
+
+footer{
+    background-color: rgb(182, 170, 152);
+    
+}
+
+@media screen and (max-width:480px) {
+    main{
+        width: auto;
+    }
+    .cuadro_encriptador{
+        height: 10em;
+        font-size: 1em;
+    }
+
+    .boton{
+        width: 30%;
+        height: 2em;
+        display: block;
+        margin: auto;
+        font-size: 13px;
+        margin-bottom: 1em;
+    }
+
+    #copiar{
+        left: 35%;
+    }
+    #encriptar{
+        margin-left: auto;
+    }
+
+    #pergamino{
+        display: none;
+    }
+}
